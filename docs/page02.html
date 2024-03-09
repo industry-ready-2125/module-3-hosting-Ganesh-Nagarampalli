@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Login</title>
+    <link rel="stylesheet" href="page02.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="spotify.png" alt="spotify">spotify</li>
+            <li><a href="index.html" id="top">Home</a></li>
+            <li><a href="page03.html" id="top">Premium</a></li>
+            <li><a href="#" id="top">Support</a></li>
+            <li><a href="#" id="top">Download</a></li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="login-container">
+        <div class="login-box">
+            <h2>Log in to Spotify</h2>
+            <div class="social-login">
+                <div class="social-box google">
+                    Continue with Google
+                </div>
+                <div class="social-box facebook">
+                    Continue with Facebook
+                </div>
+                <div class="social-box apple">
+                    Continue with Apple
+                </div>
+                <div class="social-box phone">
+                    Continue with Phone Number
+                </div>
+            </div>
+            <form action="#">
+                <label for="email" style="color: white;">Email or Username</label>
+                <input type="text" id="email" name="email" placeholder="Email or username" required>
+                <label for="password" style="color: white;">Password</label>
+                <input type="password" id="password" name="password" placeholder="password" required>
+                <div class="remember-me">
+                    <input type="checkbox" id="remember">
+                    <label for="remember" style="color: white;">Remember me</label>
+                </div>
+                <button type="submit">Log in</button><br><br>
+                <a href="#" class="forgot-password">Forgot your password?</a>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
